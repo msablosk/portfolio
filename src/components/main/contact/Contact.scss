@@ -1,0 +1,51 @@
+.Contact {
+    display: flex;
+    flex-direction: column;
+    min-height: 60vh;
+
+    section {
+        
+        margin: 1.5rem 0;
+
+        a {
+            color: black;
+            text-decoration: none;
+        }
+
+        .fa:before {
+            text-align: center;
+        }
+
+        ul {
+            list-style: none;
+        }
+    }
+}
+
+@media screen and (min-width: 760px){
+    .Contact {
+        flex-direction: row;
+        justify-content: space-around;
+        width: 100%;
+        section {
+            width: 40%;
+
+            h2 {
+                text-align: center;
+            }
+
+            .fa:before {
+                text-align: center;
+            }
+
+            a {
+                padding-left: 1rem;
+                color: grey;
+            }
+
+            a:hover {
+                color: black;
+            }
+        }
+    }
+}

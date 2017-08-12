@@ -1,3 +1,29 @@
 footer {
+
+    width: 90%;
+    margin: 0 auto;
+    padding-top: 1rem;
+    margin-top: 2rem; 
     text-align: center;
+    color: grey;
+    border-top: 1px solid black;
+
+    a {
+        color: grey;
+        padding: 0.5rem;
+    }
+
+    a:hover {
+        color: black;
+    }
+
+}
+
+@media screen and (min-width: 760px) {
+
+    footer {
+        margin-top: 5rem; 
+        width: 15%;
+        border-top: 1px solid lightgrey;
+    }
 }

@@ -2,20 +2,22 @@
   display: flex;
   flex-direction: column;
   list-style: none;
-  margin: 0;
   padding: 0; }
   .Portfolio ul li {
     width: 100%;
+    margin: 0.5rem 0;
     border: 1px solid #d3d3d3;
     background-color: #f5f5f5; }
+    .Portfolio ul li p {
+      padding: 0.5rem; }
     .Portfolio ul li img {
-      width: 100%; }
+      width: 100%;
+      border-bottom: 1px solid grey; }
 
 @media screen and (min-width: 760px) {
   .Portfolio ul {
     align-items: flex-start;
     flex-direction: row;
-    justify-content: space-between;
     flex-wrap: wrap; }
     .Portfolio ul li {
       width: 28%;
@@ -23,5 +25,6 @@
       .Portfolio ul li p {
         margin: 0;
         padding: 5%;
-        font-size: .8em;
-        color: #000; } }
+        color: #000; }
+    .Portfolio ul li:hover {
+      box-shadow: 1px 1px 25px #a9a9a9; } }

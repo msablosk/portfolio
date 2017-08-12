@@ -1,0 +1,20 @@
+.About {
+  display: flex;
+  flex-direction: column; }
+  .About h2 {
+    margin-top: 1rem;
+    text-align: center; }
+  .About img {
+    margin: 0 auto;
+    max-width: 15rem;
+    border-radius: 1500px; }
+  .About p {
+    margin: 1rem auto;
+    font-size: 1rem;
+    line-height: 1.5; }
+
+@media screen and (min-width: 760px) {
+  .About {
+    min-height: 60vh; }
+    .About p {
+      max-width: 65%; } }

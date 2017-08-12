@@ -3,10 +3,11 @@ header {
   margin: 0 auto;
   border-bottom: 1px solid black; }
 
-@media screen and (min-width: 960px) {
+@media screen and (min-width: 760px) {
   header {
     display: flex;
     justify-content: space-between;
-    width: 75%;
-    margin: 0 auto;
-    padding: 1rem 2.5%; } }
+    width: 65%;
+    margin: 0 auto 3rem;
+    padding: 1rem 2.5%;
+    border-bottom: 1px solid lightgrey; } }

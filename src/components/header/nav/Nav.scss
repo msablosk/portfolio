@@ -18,8 +18,13 @@ nav {
         }
 
         a {
-            color: black;
+            color: grey;
             text-decoration: none;
+        }
+
+        .active {
+            border-bottom: 2px solid #4c85e0;
+            color: black;
         }
     }
 }
@@ -49,15 +54,18 @@ nav {
 
             li {
                 margin: 0 2rem;
+
+                a:hover {
+                    color: black;
+                }
+
             }
 
-            li:hover {
-                border-bottom: 1px solid black;
+            a:hover {
+                border-bottom: 2px solid #4c85e0;
             }
 
-            .active {
-                border-bottom: 1px solid black;
-            }
+            
         }
     }
 } 
