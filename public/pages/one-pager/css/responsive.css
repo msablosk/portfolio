@@ -1,0 +1,67 @@
+
+/* Retina display */
+@media screen and (min-width: 1024px){
+    .first-block{
+        background-image: url('../img/splash-ret.jpg');
+    }
+
+    .second-block {
+        padding: 50px 10% 0;
+    }
+
+    .second-block-container {
+        padding-top: 10vh;
+    }
+
+    .third-block {
+        padding: 150px 25% 0;
+    }
+}
+
+/* Desktop */
+@media screen and (min-width: 980px) and (max-width: 1024px){
+    .first-block{
+        background-image: url('../img/splash-desktop.jpg');
+    }
+
+    .second-block {
+        padding: 50px 10% 0;
+    }
+
+    .second-block-container {
+        padding-top: 10vh;
+    }
+
+    .third-block {
+        padding: 150px 25% 0;
+    }
+}
+
+/* Tablet */
+@media screen and (min-width: 760px) and (max-width: 980px){
+    .first-block{
+        background-image: url('../img/splash-tablet.jpg');
+    }
+    
+    .second-block {
+        padding: 50px 10% 0;
+    }
+
+    .second-block-container {
+        padding-top: 10vh;
+    }
+}
+
+/* Mobile HD */
+@media screen and (min-width: 350px) and (max-width: 760px){
+    .first-block{
+        background-image: url('../img/splash-mobile-hd.jpg');
+    }
+}
+
+/* Mobile LD */
+@media screen and (max-width: 350px){
+    .first-block{
+        background-image: url('../img/splash-mobile-ld.jpg');
+    }
+} 

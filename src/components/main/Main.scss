@@ -1,11 +1,14 @@
+@import '../responsive';
+
+
 .container {
-    width: 85%;
+    width: 90%;
     display: flex;
     margin: 1rem auto 0;
     padding: 0 5%;
 }
 
-@media screen and (min-width: 760px) {
+@media #{$desktop-and-larger} {
     .container{
         max-width: 60%;
     }   

@@ -1,0 +1,13 @@
+<form>
+      <div class="row">
+        <div class="eight columns offset-by-two">
+        <a href="#/" class="button button-primary center">back</a>
+          <div class="note"><h2>{{subject}}</h2><p>{{body}}</p></div>
+          <label for="noteSubject">Subject</label>
+          <input class="u-full-width" placeholder="Subject" id="noteSubject" ng-model="subject">
+          <label for="noteBody">Message</label>
+          <textarea class="u-full-width" placeholder="Write note here..." id="noteBody" ng-model="body"></textarea>  
+          <button class="button-primary" ng-click="addNote()">Add note</button>
+        </div>
+      </div>
+</form>

@@ -1,0 +1,26 @@
+@media screen and (min-height: 680px) and (min-width: 480px) {
+	.logo {
+		width: 150px;
+	}
+
+	.logo img {
+		width: 150px;
+		height: 150px;
+	}
+
+	.game {
+		margin-top: 10%;
+	}
+	.word {
+		margin-top: 20px;
+	}
+
+	#der {
+		margin-top: 20px;
+	}
+
+	#another {
+		margin-top: 5px;
+	}
+	
+}

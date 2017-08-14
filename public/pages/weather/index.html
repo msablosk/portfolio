@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Super Simple Weather</title>
+    <link rel="stylesheet" href="css/normalize.css" type="text/css" media="screen" charset="utf-8">    
+    <link rel="stylesheet" href="css/main.css" type="text/css" media="screen" charset="utf-8">    
+    <link rel="stylesheet" href="css/responsive.css" type="text/css" media="screen" charset="utf-8">  
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+  </head>
+  <body>
+    
+    <div class="wrapper">
+      
+      
+      <div class="main">
+        
+        <h1>Super Simple Weather</h1>
+
+        <div class="where">
+          <label>Location</label>
+          <input type="text" name="location" id="uLocal">
+          <button id="go">Go</button>
+          <br>
+          <button id="myLocation">Use My Location</button>
+
+        </div>
+          
+        <h2 class="moment">Just a moment please...</h2>
+
+        <ul class="today">  
+          <li>
+            <h3>Your Location</h3>
+            <p id="loc">Loading...</p>
+          </li>
+          
+          <li>
+            <h3>Temprature</h3>
+            <p id="temp">Loading...</p>  
+          </li>
+
+          <li>
+            <h3>Conditions</h3>
+            <p id="cond">Loading...</p><img src="" id="icon">
+          </li>
+          
+          <li>
+            <h3>Description</h3>
+            <p id="desc">Loading...</p>
+          </li>
+        </ul>
+      
+        <div class="future">
+
+          <div class="threeday">
+            <div id="dayOne">
+              <h2 id="dayOneHeader">Loading</h2>
+              <p id="dayOneTemp">Temp</p>
+              <p id="dayOneCond">Temp</p>
+              <img src="" id="iconOne">
+            </div>
+            <div id="dayTwo">
+              <h2 id="dayTwoHeader">Loading</h2>
+              <p id="dayTwoTemp">Temp</p>
+              <p id="dayTwoCond">Temp</p>
+              <img src="" id="iconTwo">
+            </div>
+            <div id="dayThree">
+              <h2 id="dayThreeHeader">Loading</h2>
+              <p id="dayThreeTemp">Temp</p>
+              <p id="dayThreeCond">Temp</p>
+              <img src="" id="iconThree">
+            </div>
+          </div>
+
+          <div class="tomorrow">
+            <h2 id="tomorrowHeader">Tomorrow</h2>
+            <p id="tomorrowTemp"></p>
+            <p id="tomorrowCond"></p>
+          </div>
+
+        </div>
+      </div>
+
+    </div>    
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+    <script type="text/javascript" src="js/script.js" charset="utf-8"></script>
+    <script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-80421556-1', 'auto');
+  ga('send', 'pageview');
+
+</script>  
+
+  </body>
+</html>

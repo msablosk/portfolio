@@ -1,3 +1,6 @@
+@import '../../responsive';
+
+
 nav {
 
     width: 60%;
@@ -29,7 +32,7 @@ nav {
     }
 }
 
-@media screen and (min-width: 760px){
+@media #{$tablet-and-larger} {
     nav{
         ul {
             font-size: 1.5rem;
@@ -40,7 +43,7 @@ nav {
 
 
 
-@media screen and (min-width: 960px){
+@media #{$desktop-and-larger} {
     nav {
 
         width: auto;

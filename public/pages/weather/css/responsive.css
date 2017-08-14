@@ -1,0 +1,31 @@
+@media screen and (max-width: 480px) {
+	
+	
+
+	.main {
+		width: 360px;
+		height: 540px;
+		margin: 10px auto;
+	}
+
+	.main h1 {
+		margin: 20px 0 10px 0;
+	}
+
+	.main p {
+		margin: 0.8em 0;
+	}
+
+	.main ul {
+		margin: 10px;
+	}
+	
+	.threeday {
+		display: none;
+	}
+
+	.tomorrow {
+		display: block;
+		margin: 40px 0 0 0;
+	}
+}

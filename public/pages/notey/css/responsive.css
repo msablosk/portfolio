@@ -1,0 +1,37 @@
+#slickNav {
+	display: none;
+}
+
+@media (max-width: 755px) {
+	header {
+		display: none;
+	}
+
+	#logo {
+		display: block;
+		margin: 0 auto;
+		max-width: 150px;
+
+	}
+
+	.mobileNav {
+		background: #33C3F0;
+	}
+
+	.slicknav_btn {
+		float: none;
+		margin: 5px auto;
+		width: 100px;
+	}
+	
+}
+
+@media (min-width: 755px) {
+	.mobileNav, .slicknav_menu {
+		display: none;
+	}
+	
+	.container {
+		padding-top: 155px;
+	}
+}

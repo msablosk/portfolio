@@ -1,3 +1,6 @@
+@import '../../responsive';
+
+
 .Portfolio {        
     
     ul {
@@ -14,7 +17,7 @@
             background-color: #f5f5f5;
 
             p {
-                padding: 0.5rem;
+                padding: 0.5rem 1rem;
             }
 
 
@@ -27,7 +30,7 @@
 }
 
 
-@media screen and (min-width: 760px){
+@media #{$tablet-and-larger} {
     .Portfolio {
         ul {
 

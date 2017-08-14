@@ -1,0 +1,48 @@
+.center {
+	margin: 0 auto;
+	display: block;
+}
+
+header {
+	padding: 10px 0 0;
+	width: 100%;
+	z-index: 1;
+	position: fixed;
+	background: white;
+	border-bottom: 1px solid lightgray;
+}
+
+#logo {
+	max-width: 95px;
+}
+
+.nav {
+	padding-top: 30px; 
+}
+
+
+
+
+.container {
+	padding-top: 30px;
+}
+
+.notebooksSelector {
+	width: 100%;
+}
+
+.note {
+	margin: 10px 0;
+	padding: 20px;
+	border: 1px black solid;
+	border-radius: 15px;
+
+
+}
+
+.note h2 {
+		display: block;
+		padding: 10px;
+		border: 1px black solid;
+		border-radius: 10px;
+	}

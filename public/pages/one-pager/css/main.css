@@ -1,0 +1,110 @@
+html, body {
+	height: 100%;
+}
+
+a {
+	font-family: "Garamond", serif; 
+}
+
+.first-block {
+	margin-top: 50px;
+	background-position: center center;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	background-size: cover;
+	height: 100vh;
+	font-family: 'Raleway', sans-serif;
+}
+
+.first-block h1 {
+	font-size: 3.5rem;
+}
+
+.first-block h2 {
+	font-size: 3rem;
+}
+
+.first-block-text:first-child {
+	padding-top: 20vh;
+}
+
+.first-block-text {
+	margin: 5px;
+	padding: 10px;
+	color: white;
+	text-align: center;	
+}
+
+.first-block .btn {
+	margin-top: 30px;
+}
+
+.arrow {
+	width: 25px;
+	height: 25px;
+}
+
+.arrow-link {
+	margin: 80px;
+}
+
+
+.second-block {
+	padding: 50px 5% 0;
+	background: white;
+	min-height: 100%;
+}
+
+.second-block-info {
+	padding: 50px 0 5vh;
+}
+
+.second-block-info p {
+	font-size: 1.5em;
+}
+
+.second-block-divs {
+	font-family: 'Raleway', sans-serif;
+}
+
+.second-block-divs p {
+
+	margin-top: 30px;
+	text-align: justify;
+}
+
+.second-block-svg {
+	height: 150px;
+	width: 150px;
+}
+
+.third-block {
+	position: relative;
+	padding: 150px 10% 50px;
+	background: rgb(79,	141, 194);
+	min-height: 100%;
+	color: white;
+}
+
+.form-block {
+	margin: 10% 0 15%;
+}
+
+.form-block input {
+	margin: 20px 0;
+}
+
+.form-block a {
+	color: white;
+}
+
+.home-link {
+	position: absolute;
+	bottom: 0;
+	left: 50%;
+	margin-left: -51.1px;
+}
+
+.home-link a {
+	color: white;
+}

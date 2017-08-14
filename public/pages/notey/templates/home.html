@@ -1,0 +1,11 @@
+<div class="row">
+        <div class="eight columns offset-by-two">
+          
+          <div class="note" ng-repeat="note in notes">
+            <h2>{{note.subject}}</h2>
+            <h5>{{note.body}}</h5>
+            <a href="#/edit/{{$index}}" class="button button-primary">Edit Post</a>
+            <button class="button-danger" ng-click="deleteNote($index)">delete</button>
+          </div>      
+        </div>
+      </div>
