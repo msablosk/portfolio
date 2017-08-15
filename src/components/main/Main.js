@@ -14,7 +14,7 @@ export class Main extends Component {
            <Route exact path='/' component={ Portfolio }/>
            <Route path='/about' component={ About }/>
            <Route path='/contact' component={ Contact }/>
-           <Route component={ NotFound }/>
+           <Route path='/not-found' component={ NotFound }/>
         </Switch>
       </div>
     );
